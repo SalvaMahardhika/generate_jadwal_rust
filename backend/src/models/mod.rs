@@ -1,0 +1,25 @@
+pub mod academic_year;
+pub mod class;
+pub mod class_subject;
+pub mod class_subject_teacher;
+pub mod grade;
+pub mod major;
+pub mod schedule;
+pub mod subject;
+pub mod teacher;
+pub mod time_slot;
+pub mod time_slot_profile;
+pub mod user;
+
+pub use academic_year::AcademicYear;
+pub use class::Class;
+pub use class_subject::ClassSubject;
+pub use class_subject_teacher::ClassSubjectTeacher;
+pub use grade::Grade;
+pub use major::Major;
+pub use schedule::Schedule;
+pub use subject::Subject;
+pub use teacher::Teacher;
+pub use time_slot::TimeSlot;
+pub use time_slot_profile::TimeSlotProfile;
+pub use user::User;

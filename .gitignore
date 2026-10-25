@@ -1,0 +1,13 @@
+# Environment & Secrets
+.env
+*.env
+!.env.example
+
+# Rust Target / Build Artifacts
+**/target/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

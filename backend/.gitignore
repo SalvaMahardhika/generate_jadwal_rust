@@ -1,0 +1,32 @@
+# Rust & Cargo Build Artifacts
+/target/
+**/*.rs.bk
+*.rlib
+*.dylib
+*.so
+*.dll
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# IDEs & Editors
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.bak
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Database & Local Cache
+*.db
+*.sqlite
+*.sqlite-journal
